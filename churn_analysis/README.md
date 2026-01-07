@@ -16,11 +16,14 @@ Features include:
 - **Target**: Churn (Yes, No)
 
 #### Project flow<br>
-- **Data Ingestion & Cleaning**: Raw data processing, handling missing values, and outlier detection to ensure high data quality.<br>
-- **Exploratory Data Analysis (EDA)**: In-depth visualization of customer behavior patterns and correlation analysis between service features and churn.<br>
-- **Feature Engineering**: Transformation of categorical variables and the creation of new predictive features to enhance model accuracy.<br>
-- **Machine Learning Pipeline**: Implementation and comparative analysis of multiple classification models ( staring with Logistic Regression and Random Forest) to find the optimal predictor.
-- **Evaluation & Insights**: Model performance assessment using accuracy, precision, recall, and AUC-ROC, followed by actionable business recommendations based on feature importance.
-Outcome
-The final deliverable includes a predictive model capable of identifying potential churners with high recall, alongside a breakdown of the specific factors (such as 
-contract type or monthly charges) most likely to trigger a customer's departure. 
+The project follows a structured data science workflow, from business problem
+understanding to actionable insights and recommendations.
+
+1. Understanding the business problem and churn definition  
+2. Exploratory data analysis to uncover churn patterns  
+3. Data cleaning and preprocessing  
+4. Feature encoding and scaling  
+5. Handling class imbalance  
+6. Model training and evaluation  
+7. Model interpretation and insight generation  
+8. Business recommendations
